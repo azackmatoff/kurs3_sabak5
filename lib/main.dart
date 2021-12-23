@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kurs3_sabak5/question_page.dart';
-import 'package:kurs3_sabak5/questions_brain.dart';
-
-import 'home_view.dart';
-
-//final QuestionsBrain questionsBrain = QuestionsBrain(); //Global variable
+import 'package:kurs3_sabak5/pages/question_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Color(0xff212121),
       ),
-      home: QuestionPage(),
+      home: const QuestionPage(),
     );
   }
 }

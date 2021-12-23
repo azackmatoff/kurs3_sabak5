@@ -2,14 +2,14 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-class HomeView extends StatefulWidget {
-  const HomeView({Key key}) : super(key: key);
+class MisalSabak extends StatefulWidget {
+  const MisalSabak({Key key}) : super(key: key);
 
   @override
-  _HomeViewState createState() => _HomeViewState();
+  _MisalSabakState createState() => _MisalSabakState();
 }
 
-class _HomeViewState extends State<HomeView> {
+class _MisalSabakState extends State<MisalSabak> {
   //variable (var), peremennye, ozgormolor
   String adamAty = 'Jon Doe';
 

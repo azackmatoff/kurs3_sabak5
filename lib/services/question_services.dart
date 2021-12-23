@@ -1,6 +1,6 @@
-import 'package:kurs3_sabak5/question.dart';
+import 'package:kurs3_sabak5/models/question.dart';
 
-class QuestionsBrain {
+class QuestionServices {
   // funksiyalar
 
   int _index = 0; //Private variable, privatnyi peremennyi
@@ -40,4 +40,4 @@ class QuestionsBrain {
   }
 }
 
-final QuestionsBrain questionsBrain = QuestionsBrain();
+final QuestionServices questionsServices = QuestionServices();
